@@ -5,6 +5,7 @@ all:
 	(cd 2_button_demo; make)
 	(cd 3_moving_shapes; make)
 	(cd 4_wake_demo; make)
+	(cd Code; make)
 
 doc:
 	rm -rf doxygen_docs
@@ -16,5 +17,6 @@ clean:
 	(cd 2_button_demo; make clean)
 	(cd 3_moving_shapes; make clean)
 	(cd 4_wake_demo; make clean)
+	(cd Code; make clean)
 	rm -rf lib h
 	rm -rf doxygen_docs/*
